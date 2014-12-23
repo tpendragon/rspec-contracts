@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   s.files = Dir.glob("lib/**/*") + ["README.md", "History.md", "License.txt"]
   s.require_path = "lib"
-  s.add_dependency "rspec", "3.0.0.beta2"
+  s.add_dependency "rspec", "~> 3.0"
   s.add_development_dependency "guard-rspec", "~> 0"
   s.add_development_dependency "rake", "~> 0"
 end
